@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Стандарт Пак</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./js/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./js/owl/owl.theme.default.min.css">
+</head>
+<body class="max-w-[1920px] min-w-[375px] m-auto relative">
+
+    <!-- SP:HEADER -->
+    <header data-sp-name="header" class="w-full h-auto absolute top-0 right-0 left-0 z-50">    
+        <!-- sp:top-bar -->
+        <div class="hidden xl:block w-full h-10 bg-sp_main"> 
+            <div class="container px-5 sm:px-0 flex items-stretch justify-end xl:justify-between h-full">
+                <div class="hidden 2xl:flex items-center justify-center">
+                    <i class="w-3 h-3 bg-[#39E01E] rounded-full"></i>
+                    <span class="font-p-mobile text-sp_white ml-2">Сайт работает круглосуточно</span>
+                </div>
+
+                <div class="hidden xl:flex items-stretch justify-center">
+                    <a href="about.html" class="font-a-mobile text-sp_white px-6 flex items-center justify-center hover:bg-sp_accent duration-300 ease-in-out">
+                        <span>О компании</span>
+                    </a>
+                    <a href="" class="font-a-mobile text-sp_white px-6 flex items-center justify-center hover:bg-sp_accent duration-300 ease-in-out">
+                        <span>Каталог</span>
+                    </a>
+                    <a href="dilivery.html" class="font-a-mobile text-sp_white px-6 flex items-center justify-center hover:bg-sp_accent duration-300 ease-in-out">
+                        <span>Оплата и доставка</span>
+                    </a>
+                    <a href="" class="font-a-mobile text-sp_white px-6 flex items-center justify-center hover:bg-sp_accent duration-300 ease-in-out">
+                        <span>Возврат</span>
+                    </a>
+                    <a href="" class="font-a-mobile text-sp_white px-6 flex items-center justify-center hover:bg-sp_accent duration-300 ease-in-out">
+                        <span>Контакты</span>
+                    </a>
+                    <a href="" class="font-a-mobile text-sp_white bg-sp_accent px-6 flex items-center justify-center">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5844 6.58865L7.40461 0.406101C7.14566 0.147037 6.78872 0 6.41779 0H1.39974C0.629882 0 0 0.630158 0 1.40035V6.42061C0 6.7917 0.146972 7.14879 0.412922 7.40785L6.59276 13.5904C7.13866 14.1365 8.02749 14.1365 8.57339 13.5904L13.5914 8.57014C14.1373 8.02401 14.1373 7.14179 13.5844 6.58865ZM3.14941 4.20105C2.56852 4.20105 2.09961 3.73193 2.09961 3.15079C2.09961 2.56964 2.56852 2.10053 3.14941 2.10053C3.7303 2.10053 4.19921 2.56964 4.19921 3.15079C4.19921 3.73193 3.7303 4.20105 3.14941 4.20105Z" fill="white"/>
+                        </svg>                            
+                        <span class="ml-2">Скидки</span>
+                    </a>
+                </div>
+
+                <div class="flex items-stretch justify-between">
+                    <a href="mailto:info@kupitkorobok.ru" class="flex items-center justify-center px-7 border-r-[1px] border-r-sp_dark-silver">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-sp_white" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <span class="font-a-mobile text-sp_white ml-2">info@kupitkorobok.ru</span>
+                    </a>
+                    <a href="tel:+7 911 787-56-47" class="flex items-center justify-center px-7 border-r-[1px] border-r-sp_dark-silver">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-sp_white" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                        </svg>
+                        <span class="font-a-mobile text-sp_white ml-2">+7 911 787-56-47</span>
+                    </a>
+                    <div class="flex items-center justify-end">
+                        <a href="" class="flex items-center justify-center ml-7">
+                            <svg class="text-sp_white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                            </svg>
+                        </a>
+                        <a href="" class="flex items-center justify-center ml-2">
+                            <svg class="text-sp_white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /sp:top-bar -->
+
+        <!-- sp:main-nav -->
+        <div class="w-full h-16 sm:h-28 bg-sp_white">
+            <div class="container px-5 sm:px-0 flex items-stretch justify-between h-full">
+                <a href="./" class="flex items-center justify-center">
+                    <img src="./images/logo/logo_1.png" alt="Вернуться на главную" class="h-7 sm:h-8">
+                </a>
+                <div class="hidden xl:flex items-stretch justify-between">
+                    <a href="catalog-items.html" class="flex items-center justify-center">
+                        <span class="font-a-mobile sm:font-a-main text-sp_black hover:text-sp_dark-silver px-2">Картонные коробки</span>
+                    </a>
+                    <a href="" class="flex items-center justify-center">
+                        <span class="font-a-mobile sm:font-a-main text-sp_black hover:text-sp_dark-silver px-2">Клейкие ленты</span>
+                    </a>
+                    <a href="" class="flex items-center justify-center">
+                        <span class="font-a-mobile sm:font-a-main text-sp_black hover:text-sp_dark-silver px-2">Стрейч пленка</span>
+                    </a>
+                    <a href="" class="flex items-center justify-center">
+                        <span class="font-a-mobile sm:font-a-main text-sp_black hover:text-sp_dark-silver px-2">Упаковочные пакеты</span>
+                    </a>
+                    <a href="" class="flex items-center justify-center">
+                        <span class="font-a-mobile sm:font-a-main text-sp_black hover:text-sp_dark-silver px-2">Термоэтикетки и чековые ленты</span>
+                    </a>
+                </div>
+                <div class="flex items-stretch justify-center">
+                    <div class="flex items-center justify-center">
+                        <form class="hidden 2xl:block w-[325px] h-12 relative">
+                            <input type="text" class="border-2 border-sp_dark-silver w-full h-full px-6 font-p-main" placeholder="Найти определенный товар...">
+                            <button type="submit" class="absolute top-2/4 -translate-y-2/4 right-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sp_main" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </form>
+                        <a href="" class="bg-sp_sale w-8 sm:w-12 h-8 sm:h-12 flex items-center justify-center border-2 border-sp_sale ml-3">
+                            <svg class="text-sp_white h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                            </svg>
+                        </a>
+                        <a data-sp-name="search-btn" class="bg-sp_main w-8 sm:w-12 h-8 sm:h-12 flex 2xl:hidden items-center justify-center border-2 border-sp_main ml-3">
+                            <svg xmlns="http://www.w3.org/2000/svg"class="text-sp_white h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="" class="bg-sp_main w-8 sm:w-12 h-8 sm:h-12 hidden xl:flex items-center justify-center border-2 border-sp_main ml-3">
+                            <svg class="text-sp_white h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a data-sp-name="bureger-btn" class="bg-sp_main w-8 sm:w-12 h-8 sm:h-12 flex xl:hidden items-center justify-center border-2 border-sp_main ml-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-sp_white h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /sp:main-nav -->
+    </header>
+    <!-- /SP:HEADER -->
+
+
+
+
+    <!-- sp:menu-mobile -->
+    <div data-sp-name="mobile-menu" data-sp-status="false" class="w-full h-auto absolute top-0 right-0 left-0 z-10 -translate-y-full bg-sp_white duration-300 ease-in-out px-5 sm:px-0">
+        <div class="container border-t-2 border-t-sp_dark-silver py-12">
+            <a href="" class="font-a-mobile sm:font-a-main py-5 text-sp_black block px-6 text-center">О компании</a>
+            <a href="" class="font-a-mobile sm:font-a-main py-5 text-sp_black block px-6 text-center">Каталог</a>
+            <a href="" class="font-a-mobile sm:font-a-main py-5 text-sp_black block px-6 text-center">Оплата и доставка</a>
+            <a href="" class="font-a-mobile sm:font-a-main py-5 text-sp_black block px-6 text-center">Возврат</a>
+            <a href="" class="font-a-mobile sm:font-a-main py-5 text-sp_black block px-6 text-center">Контакты</a>
+            <a href="" class="font-a-mobile sm:font-a-main py-5 text-sp_white bg-sp_accent px-6 flex items-center justify-center">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5844 6.58865L7.40461 0.406101C7.14566 0.147037 6.78872 0 6.41779 0H1.39974C0.629882 0 0 0.630158 0 1.40035V6.42061C0 6.7917 0.146972 7.14879 0.412922 7.40785L6.59276 13.5904C7.13866 14.1365 8.02749 14.1365 8.57339 13.5904L13.5914 8.57014C14.1373 8.02401 14.1373 7.14179 13.5844 6.58865ZM3.14941 4.20105C2.56852 4.20105 2.09961 3.73193 2.09961 3.15079C2.09961 2.56964 2.56852 2.10053 3.14941 2.10053C3.7303 2.10053 4.19921 2.56964 4.19921 3.15079C4.19921 3.73193 3.7303 4.20105 3.14941 4.20105Z" fill="white"/>
+                </svg>                            
+                <span class="ml-2">Скидки</span>
+            </a>
+        </div>
+    </div>
+    <!-- /sp:menu-mobile -->
+
+
+
+
+    <!-- sp:search -->
+    <div data-sp-name="search" data-sp-status="false" class="hidden md:block w-[640px] max-h-[400px] overflow-y-scroll absolute translate-x-2/4 lg:translate-x-0 right-2/4 lg:right-28 2xl:right-[17rem] z-10 -translate-y-[150%] bg-sp_white shadow-xl border-[1px] border-[#cccccc4d] duration-300 ease-in-out px-5 py-10">
+        <div data-sp-name="search__load" class="hidden w-full h-full">
+            <div class="w-full h-full flex items-center justify-center">
+                <svg class="animate-spin h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="#3D67F9" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+            </div>
+        </div>
+        <div data-sp-name="search__error" class="hidden w-full h-auto">
+            <div class="flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-sp_sale" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </div>
+            <div class="w-full text-center font-roboto font-[600] text-2xl">Упс! Попробуйте еще раз</div>
+        </div>
+        <div data-sp-name="search__not-found" class="hidden w-full h-full">
+            <div class="w-full text-center font-roboto font-[600] text-2xl">Ничего не найдено...</div>
+        </div>
+        <form class="block 2xl:hidden w-full h-12 mb-3 relative">
+            <input type="text" class="border-2 border-sp_dark-silver w-full h-full px-6 font-p-main" placeholder="Найти определенный товар...">
+            <button type="submit" class="absolute top-2/4 -translate-y-2/4 right-5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sp_main" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </form>
+        <div data-sp-name="search__result" class="w-full h-auto">
+            <div class="grid grid-cols-1" style="grid-template-rows: repeat(6, minmax(0, 1fr));">
+                <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                    <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                        <div class="bg-[url('../images/items/06.png')] bg-center bg-[length:auto_90%] bg-no-repeat"></div>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="font-label-mobile md:font-label text-sp_dark-silver">Картонные коробки</div>
+                                <div class="font-p-mobile md:font-p-main text-sp_black">Бурая обувная коробка №79</div>
+                            </div>
+                            <div class="pr-2">
+                                <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">356,74 ₽</div>
+                                <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">1980 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                    <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                        <div class="bg-[url('../images/items/07.png')] bg-center bg-[length:auto_90%] bg-no-repeat"></div>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="font-label-mobile md:font-label text-sp_dark-silver">Клейкие ленты</div>
+                                <div class="font-p-mobile md:font-p-main text-sp_black">Двусторонни скотч</div>
+                            </div>
+                            <div class="pr-2">
+                                <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">556,74 ₽</div>
+                                <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">999 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                    <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                        <div class="bg-[url('../images/items/08.png')] bg-center bg-[length:auto_90%] bg-no-repeat"></div>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="font-label-mobile md:font-label text-sp_dark-silver">Канцтовары</div>
+                                <div class="font-p-mobile md:font-p-main text-sp_black">Ручки шариковые ErichKrause 50шт</div>
+                            </div>
+                            <div class="pr-2">
+                                <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_black">205 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                    <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                        <div class="bg-[url('../images/items/06.png')] bg-center bg-[length:auto_90%] bg-no-repeat"></div>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="font-label-mobile md:font-label text-sp_dark-silver">Картонные коробки</div>
+                                <div class="font-p-mobile md:font-p-main text-sp_black">Бурая обувная коробка №79</div>
+                            </div>
+                            <div class="pr-2">
+                                <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">356,74 ₽</div>
+                                <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">1980 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                    <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                        <div class="bg-[url('../images/items/07.png')] bg-center bg-[length:auto_90%] bg-no-repeat"></div>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="font-label-mobile md:font-label text-sp_dark-silver">Клейкие ленты</div>
+                                <div class="font-p-mobile md:font-p-main text-sp_black">Двусторонни скотч</div>
+                            </div>
+                            <div class="pr-2">
+                                <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">556,74 ₽</div>
+                                <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">999 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                    <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                        <div class="bg-[url('../images/items/08.png')] bg-center bg-[length:auto_90%] bg-no-repeat"></div>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="font-label-mobile md:font-label text-sp_dark-silver">Канцтовары</div>
+                                <div class="font-p-mobile md:font-p-main text-sp_black">Ручки шариковые ErichKrause 50шт</div>
+                            </div>
+                            <div class="pr-2">
+                                <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_black">205 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /sp:search -->
+
+
+
+
+    <!-- sp:searh-mobile -->
+    <div data-sp-name="search-mobile__bg" class="hidden w-full fixed top-0 right-0 bottom-0 left-0 z-[999] flex items-end justify-center duration-200 ease-in-out">
+        <span class="bg-[#00000083] hidden"></span>
+        <div data-sp-name="search-mobile" class="translate-y-[105%] w-full h-[90vh] bg-sp_white border-t-[1px] border-[#cccccc4d] pb-20 px-5 duration-100 ease-in-out">
+            <div data-sp-name="search-mobile_swiper" class="w-full h-14">
+                <div class="h-full flex items-center justify-center">
+                    <div class="w-14 h-1 bg-sp_dark-silver"></div>
+                </div>
+            </div>
+            <form class="block w-full h-14 mb-3 relative">
+                <input type="text" class="border-2 border-sp_dark-silver w-full h-full px-6 font-p-main" placeholder="Найти определенный товар...">
+                <button type="submit" class="absolute top-2/4 -translate-y-2/4 right-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-sp_main" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </form>
+            <div data-sp-name="search-mobile__load" class="hidden w-full h-full">
+                <div class="w-full h-full flex items-center justify-center">
+                    <svg class="animate-spin h-14 w-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="#3D67F9" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div data-sp-name="search-mobile__error" class="hidden w-full h-full">
+                <div class="w-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-sp_sale" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="w-full text-center font-roboto font-[600] text-2xl">Упс! Попробуйте еще раз</div>
+            </div>
+            <div data-sp-name="search-mobile__not-found" class="hidden w-full h-full">
+                <div class="w-full text-center font-roboto font-[600] text-2xl">Ничего не найдено...</div>
+            </div>
+            <div data-sp-name="search-mobile__result" class="hidden w-full h-full overflow-y-auto">
+                <div class="grid grid-cols-1" style="grid-template-rows: repeat(8, minmax(0, 1fr));">
+                    <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                        <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                            <div class="bg-[url('../images/items/06.png')] bg-center bg-[length:90%_auto] md:bg-[length:auto_90%] bg-no-repeat"></div>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="font-label-mobile md:font-label text-sp_dark-silver">Картонные коробки</div>
+                                    <div class="font-p-mobile md:font-p-main text-sp_black">Бурая обувная коробка №79</div>
+                                </div>
+                                <div class="pr-2 min-w-max">
+                                    <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">3556,74 ₽</div>
+                                    <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">1980 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                        <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                            <div class="bg-[url('../images/items/06.png')] bg-center bg-[length:90%_auto] md:bg-[length:auto_90%] bg-no-repeat"></div>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="font-label-mobile md:font-label text-sp_dark-silver">Картонные коробки</div>
+                                    <div class="font-p-mobile md:font-p-main text-sp_black">Бурая обувная коробка №79</div>
+                                </div>
+                                <div class="pr-2 min-w-max">
+                                    <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">3556,74 ₽</div>
+                                    <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">1980 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                        <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                            <div class="bg-[url('../images/items/06.png')] bg-center bg-[length:90%_auto] md:bg-[length:auto_90%] bg-no-repeat"></div>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="font-label-mobile md:font-label text-sp_dark-silver">Картонные коробки</div>
+                                    <div class="font-p-mobile md:font-p-main text-sp_black">Бурая обувная коробка №79</div>
+                                </div>
+                                <div class="pr-2 min-w-max">
+                                    <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">3556,74 ₽</div>
+                                    <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">1980 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                        <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                            <div class="bg-[url('../images/items/06.png')] bg-center bg-[length:90%_auto] md:bg-[length:auto_90%] bg-no-repeat"></div>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="font-label-mobile md:font-label text-sp_dark-silver">Картонные коробки</div>
+                                    <div class="font-p-mobile md:font-p-main text-sp_black">Бурая обувная коробка №79</div>
+                                </div>
+                                <div class="pr-2 min-w-max">
+                                    <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">3556,74 ₽</div>
+                                    <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">1980 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                        <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                            <div class="bg-[url('../images/items/06.png')] bg-center bg-[length:90%_auto] md:bg-[length:auto_90%] bg-no-repeat"></div>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="font-label-mobile md:font-label text-sp_dark-silver">Картонные коробки</div>
+                                    <div class="font-p-mobile md:font-p-main text-sp_black">Бурая обувная коробка №79</div>
+                                </div>
+                                <div class="pr-2 min-w-max">
+                                    <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">3556,74 ₽</div>
+                                    <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">1980 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                        <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                            <div class="bg-[url('../images/items/06.png')] bg-center bg-[length:90%_auto] md:bg-[length:auto_90%] bg-no-repeat"></div>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="font-label-mobile md:font-label text-sp_dark-silver">Картонные коробки</div>
+                                    <div class="font-p-mobile md:font-p-main text-sp_black">Бурая обувная коробка №79</div>
+                                </div>
+                                <div class="pr-2 min-w-max">
+                                    <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">3556,74 ₽</div>
+                                    <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">1980 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="border-t-2 border-[#E1DCD9] py-1">
+                        <div class="h-24 grid grid-cols-[20%_80%] grid-rows-1">
+                            <div class="bg-[url('../images/items/06.png')] bg-center bg-[length:90%_auto] md:bg-[length:auto_90%] bg-no-repeat"></div>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="font-label-mobile md:font-label text-sp_dark-silver">Картонные коробки</div>
+                                    <div class="font-p-mobile md:font-p-main text-sp_black">Бурая обувная коробка №79</div>
+                                </div>
+                                <div class="pr-2 min-w-max">
+                                    <div class="font-roboto font-[500] text-lg md:text-2xl text-sp_sale">3556,74 ₽</div>
+                                    <div class="font-roboto font-[300] text-xs md:text-sm text-sp_dark-silver line-through ml-2">1980 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /sp:searh-mobile -->
+
+
+
+
+    <!-- SP:MAIN -->
+    <main data-sp-name="main" class="w-full h-auto">
+        <!-- sp:info -->
+        <div class="w-full h-auto px-5 2xl:px-14 py-14 md:py-24">
+            <div class="container xl:max-w-[1024px]">
+                <div class="hidden w-full h-auto lg:flex items-center justify-start mb-5">
+                    <a href="" class="font-p-mobile md:font-p-main text-sp_black">Главная</a>
+                    <div class="w-1 h-1 rounded-full mx-5 bg-sp_black"></div>
+                    <a href="" class="font-p-mobile md:font-p-main text-sp_black">Каталог</a>
+                    <div class="w-1 h-1 rounded-full mx-5 bg-sp_black"></div>
+                    <a href="" class="font-p-mobile md:font-p-main text-sp_black">Корзина</a>
+                    <div class="w-1 h-1 rounded-full mx-5 bg-sp_black"></div>
+                    <a href="" class="font-p-mobile md:font-p-main text-sp_black">Оформление заказа</a>
+                </div>
+                <h1 class="font-h1-mobile md:font-h1 text-sp_black mb-7 md:mb-14">Оформление заказа</h1>
+                <form class="block w-full h-auto">
+                    <div class="flex items-center justify-between cursor-pointer hover:bg-sp_light-silver hover:p-5 duration-300 ease-in-out">
+                        <h2 class="font-h2-mobile md:font-h2 text-sp_black">Платежная информация</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-sp_dark-silver" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="w-full h-auto py-14 border-b-[1px] border-sp_silver">
+                        <div class="w-full h-full grid grid-cols-2 grid-rows-3 gap-7">
+                            <div>
+                                <label for="" class="font-label-mobile md:font-label text-sp_main">Ваше имя</label>
+                                <input type="text" placeholder="Иванов Иван Иванович" class="border-2 border-sp_silver block w-full px-5 py-3 h-[50px]">
+                            </div>
+                            <div>
+                                <label for="" class="font-label-mobile md:font-label text-sp_main">Город</label>
+                                <select name="" id="" class="border-2 border-sp_silver block w-full px-5 py-3 h-[50px]">
+                                    <option value="">Москва</option>
+                                    <option value="">Санкт-Петербург</option>
+                                    <option value="">Екатеринбург</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="" class="font-label-mobile md:font-label text-sp_main">E-mail</label>
+                                <input type="email" placeholder="ivan.ivanov@mail.com" class="border-2 border-sp_silver block w-full px-5 py-3 h-[50px]">
+                            </div>
+                            <div>
+                                <label for="" class="font-label-mobile md:font-label text-sp_main">Адрес (Улица, Дом, Квартира)</label>
+                                <input type="text" placeholder="Введите адрес" class="border-2 border-sp_silver block w-full px-5 py-3 h-[50px]">
+                            </div>
+                            <div>
+                                <label for="" class="font-label-mobile md:font-label text-sp_main">Телефон</label>
+                                <input data-sp-name="form__content_tel" type="tel" placeholder="+7 (999) 123-45-67" class="border-2 border-sp_silver block w-full px-5 py-3 h-[50px]">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- /sp:info -->
+    </main> 
+    <!-- /SP:MAIN -->
+
+
+
+
+    <!-- SP:FOOTER -->
+    <footer class="w-full h-auto bg-sp_main">
+        <div class="w-full h-10 px-0 sm:px-5 2xl:px-24">
+            <div class="container h-full bg-[url('../images/elements/el_09.png')] bg-[-30%_center] sm:bg-left bg-no-repeat flex items-center justify-between">
+                <div class="flex items-center justify-between">
+                    <div class="hidden 2xl:flex items-center justify-center pl-44">
+                        <i class="w-3 h-3 bg-[#39E01E] rounded-full"></i>
+                        <span class="font-p-mobile text-sp_white ml-2">Сайт работает круглосуточно</span>
+                    </div>
+                    <div class="font-roboto font-[400] text-sm text-sp_white pl-20 sm:pl-44 2xl:pl-10">
+                        Наши менеджеры работают с 800 до 1800
+                    </div>
+                </div>
+                <div class="hidden lg:flex items-stretch justify-between">
+                    <a href="mailto:info@kupitkorobok.ru" class="flex items-center justify-center px-7 border-r-[1px] border-r-sp_dark-silver">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-sp_white" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <span class="font-a-mobile text-sp_white ml-2">info@kupitkorobok.ru</span>
+                    </a>
+                    <a href="tel:+7 911 787-56-47" class="flex items-center justify-center px-7 border-r-[1px] border-r-sp_dark-silver">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-sp_white" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                        </svg>
+                        <span class="font-a-mobile text-sp_white ml-2">+7 911 787-56-47</span>
+                    </a>
+                    <div class="flex items-center justify-end">
+                        <a href="" class="flex items-center justify-center ml-7">
+                            <svg class="text-sp_white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                            </svg>
+                        </a>
+                        <a href="" class="flex items-center justify-center ml-2">
+                            <svg class="text-sp_white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-auto py-14 px-5 2xl:px-24 bg-[#00000033]">
+            <div class="container block xl:grid grid-cols-2 grid-rows-1">
+                <div class="relative">
+                    <a href="">
+                        <img src="./images/logo/logo_2.png" width="130px">
+                    </a>
+                    <div class="w-full font-p-mobile md:font-p-main text-sp_white_2/4 py-5 border-none sm:border-solid border-b-[1px] border-sp_white_2/4 mb-5 sm:mb-8">
+                        Мы обеспечим ваш офис или предприятие всем необходимым, от канцелярии и хозяйственных товаров до упаковочных материалов. Планируете переезд или торговлю на маркетплейсах? Мы готовы помочь с поставкой коробок в срок по всему Санкт-Петербургу
+                    </div>
+                    <div class="w-full block sm:grid grid-cols-2 grid-rows-3 lg:grid-rows-1 gap-8 mb-14 xl:mb-0">
+                        <div class="mb-5 sm:mb-0">
+                            <label class="block font-label-mobile md:font-label text-sp_white_2/4">Адрес магазина</label>
+                            <div class="font-p-mobile md:font-p-main text-sp_white mt-1">Россия, г. Санкт-Петербург, Большой Смоленский проспект, дом 12</div>
+                        </div>
+                        <div class="mb-5 sm:mb-0">
+                            <label class="block font-label-mobile md:font-label text-sp_white_2/4">Адрес офиса</label>
+                            <div class="font-p-mobile md:font-p-main text-sp_white mt-1">Россия, г. Санкт-Петербург, Большой Смоленский проспект, дом 10, офис 125</div>
+                        </div>
+                        <div class="mb-5 sm:mb-0 block lg:hidden">
+                            <label class="block font-label-mobile md:font-label text-sp_white_2/4">Режим работы</label>
+                            <div class="font-p-mobile md:font-p-main text-sp_white mt-1">Наши менеджеры работают с 800 до 1800</div>
+                        </div>
+                        <div class="mb-5 sm:mb-0 block lg:hidden">
+                            <label class="block font-label-mobile md:font-label text-sp_white_2/4">Электронная почта</label>
+                            <div class="font-p-mobile md:font-p-main text-sp_white mt-1">info@kupitkorobok.ru</div>
+                        </div>
+                        <div class="mb-5 sm:mb-0 block lg:hidden">
+                            <label class="block font-label-mobile md:font-label text-sp_white_2/4">Телефон</label>
+                            <div class="font-p-mobile md:font-p-main text-sp_white mt-1">+7 911 787-56-47</div>
+                        </div>
+                        <div class="hidden sm:flex lg:hidden items-center justify-start">
+                            <a href="" class="flex items-center justify-center">
+                                <svg class="text-sp_white" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                </svg>
+                            </a>
+                            <a href="" class="flex items-center justify-center ml-5">
+                                <svg class="text-sp_white" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="absolute right-5 bottom-3 flex sm:hidden items-center justify-start">
+                            <a href="" class="flex items-center justify-center">
+                                <svg class="text-sp_white" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                </svg>
+                            </a>
+                            <a href="" class="flex items-center justify-center ml-5">
+                                <svg class="text-sp_white" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-solid xl:border-none border-t-[1px] border-sp_white_2/4">
+                    <div class="block md:grid grid-cols-2 xl:grid-cols-[60%_40%] grid-rows-1 mt-14 xl:pt-0">
+                        <div class="pl-0 xl:pl-40">
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Личный кабинет</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Корзина</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Каталог</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Оплата и доставка</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Возврат</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">О компании</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Политика конфиденциальности</a>
+                        </div>
+                        <div class="hidden sm:block">
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Картонные коробки</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Клейкие ленты</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Стрейч пленка</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Упаковочные пакеты</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Термоэтикетки и чековые ленты</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Воздушно пузырчатая пленка</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Для кафе и ресторанов</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Спецодежда</a>
+                            <a href="" class="block font-a-mobile md:font-a-main text-sp_white mb-5">Бытовая химия</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-16 bg-[#1D1D1D]">
+            <div class="container h-full px-5 md:px-14 flex items-center justify-between">
+                <div class="font-roboto text-[#8E8E8E] text-[10px] sm:text-sm font-[400]">
+                    © Стандарт ПАК, 2022
+                </div>
+                <a href="https://ideait.ru/" class="flex items-center justify-center">
+                    <span class="font-roboto text-[#8E8E8E] text-[10px] sm:text-sm font-[400] mr-2">Сайт разработан в </span>
+                    <img src="./images/ideait.png" class="w-[44px] sm:w-[80px]">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- /SP:FOOTER -->
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/jquery.touchSwipe.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+</body>
+</html>
